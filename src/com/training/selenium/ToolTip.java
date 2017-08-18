@@ -20,8 +20,8 @@ public class ToolTip {
 		driver.get("http://docs.seleniumhq.org");
 		driver.manage().window().maximize();	
 
-
 		//Tools tip case 1	
+		//Get the webelement using CSS locator 
 		WebElement element = driver.findElement(By.cssSelector("#header>h1 a"));
 		// Get tooltip text
 		String toolTipText = element.getAttribute("title");
@@ -49,10 +49,11 @@ public class ToolTip {
 		// Use action class to mouse hover on Text box field
 		Actions action = new Actions(driver);
 		action.moveToElement(element).build().perform();
-		WebElement toolTipElement = driver.findElement(By.cssSelector(".ui-tooltip"));
+		WebElement toolTipElement = driver.findElement(By.xpath("//div[@role='tooltip']"));
 
 		// To get the tool tip text and assert
 		String toolTipText = toolTipElement.getText();
+		System.out.println("Tool tip text "+toolTipText);
 		Assert.assertEquals("We ask for your age only for statistical purposes.", toolTipText);
 
 	}

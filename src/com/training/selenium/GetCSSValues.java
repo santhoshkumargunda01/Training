@@ -17,21 +17,18 @@ public class GetCSSValues {
 		driver.get("http://www.google.com");
 		driver.manage().window().maximize();	
 		
-		driver.navigate().refresh();
-		
+
 		//Get the color of google search button before doing mouse hover  
 		WebElement element = driver.findElement(By.name("btnK"));
 		String beforeColor=element.getCssValue("color");
 		System.out.println(beforeColor);
 		
-		//Get the color of google search button after doing mouse hover
-		
+		//Get the color of google search button after doing mouse hover		
 		Actions action = new Actions(driver);
 		action.moveToElement(element).perform();
 		System.out.println("Color of a button after mouse hover : "	+ element.getCssValue("color"));
 		
-		//get the size of the CSS value 
-		
+		//get the font size of the CSS value 		
 		System.out.println("Font Size of a button "	+ element.getCssValue("font-size"));
 		
 		//get the font weight
