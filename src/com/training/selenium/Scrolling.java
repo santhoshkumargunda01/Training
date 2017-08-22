@@ -22,7 +22,7 @@ public class Scrolling {
 		((JavascriptExecutor) driver)
          .executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		 
-		 //Scroll the web page until the required webelement is visible
+		 //Scroll the web page until the required web element is visible
 		driver.navigate().to("http://jqueryui.com/tooltip/");
 		 WebElement element = driver.findElement(By.xpath("//a[text()='API documentation']"));
 			((JavascriptExecutor) driver).executeScript(
@@ -36,6 +36,9 @@ public class Scrolling {
 			//Java script executor is used to execute java script to handle element which is developed in jquery, java script and Angular JS
 		
 	
+	
+			
+			
 	}
 
 }
