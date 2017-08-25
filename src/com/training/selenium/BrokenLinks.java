@@ -24,7 +24,7 @@ public class BrokenLinks {
 		validateInvalidLinks(driver);
 	}
 
-
+	//method to validate broken links in a web page
 	public static void validateInvalidLinks(WebDriver driver) {
 
 		try {
