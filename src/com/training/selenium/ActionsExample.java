@@ -16,7 +16,7 @@ public class ActionsExample {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://store.demoqa.com/");
 		driver.manage().window().maximize();	
-		
+		//to refresh the web page
 		driver.navigate().refresh();
 		
 		//Select an web element		
