@@ -34,7 +34,7 @@ public class ActionsExample {
         driver.findElement(By.linkText("iPads")).click();
 		
 		
-        //What is diff between actions and action?
+        //What is differnce between actions and action?
         //Actions is class and action is interface 
 		
 	}
