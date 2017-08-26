@@ -15,6 +15,8 @@ public class ActionsExample {
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://store.demoqa.com/");
+		
+		//to maxmize the web page
 		driver.manage().window().maximize();	
 		//to refresh the web page
 		driver.navigate().refresh();
