@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample Suite">
+  <test name="testing">
+  	<groups>
+      <run>
+        <include name="Smoke Test"/>
+      </run>
+    </groups>
+    <classes>
+       <!-- <class name="com.training.selenium.TestNGGrouping" /> -->
+       <class name="com.training.selenium.TestNGIncludeExclude">
+        <methods>
+        <include name="addLocationTestCase" />
+        <include name="addDepartmentTestCase" />
+        <exclude name="addEmployeeTestCase" />
+        </methods>
+        </class>
+    </classes>
+  </test>
+</suite>
