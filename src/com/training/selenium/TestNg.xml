@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Sample Suite">
-  <test name="testing">
+<suite name="Sample Suite" parllel="tests" preserve-order="true">
+  <!-- <test name="testing">
   	<groups>
       <run>
         <include name="Smoke Test"/>
       </run>
     </groups>
     <classes>
-       <!-- <class name="com.training.selenium.TestNGGrouping" /> -->
+       <class name="com.training.selenium.TestNGGrouping" />
        <class name="com.training.selenium.TestNGIncludeExclude">
         <methods>
         <include name="addLocationTestCase" />
@@ -16,5 +16,20 @@
         </methods>
         </class>
     </classes>
+  </test> -->
+  
+  <test name="testingSceond">
+  	    <parameter name="Browser" value="chrome"></parameter>
+  	    <!-- <parameter name="Optional_parameter" value="Optional parameter"></parameter> -->
+  	    <classes>
+        <class name="com.training.selenium.TestNGPreserveOrder">
+        <class name="com.training.selenium.TestNGGrouping" />
+        
+        
+        </class>
+    </classes>
   </test>
+  
+  
+  
 </suite>
