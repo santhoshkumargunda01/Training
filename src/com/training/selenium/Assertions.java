@@ -36,6 +36,8 @@ public class Assertions {
 		
 		Assert.assertEquals(element.isDisplayed(),true);
 		
+		System.out.println("Test failed");
+		
 		
 		
 		
