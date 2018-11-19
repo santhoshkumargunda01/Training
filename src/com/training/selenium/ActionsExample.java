@@ -11,6 +11,8 @@ import org.openqa.selenium.interactions.Actions;
 public class ActionsExample {
 	
 	public static void main(String[] args) {
+		
+		System.out.println("Test commit");
 
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
