@@ -6,7 +6,13 @@ public class Actions {
 		
 		System.out.println("Test commit");
 		
+
 		System.out.println("Test");
+
+		System.out.println("Merge commit");
+		
+		
 	}
+
 
 }
