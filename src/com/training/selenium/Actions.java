@@ -11,7 +11,7 @@ public class Actions {
 
 		System.out.println("Merge commit");
 		
-		System.out.println("Stage");
+		System.out.println("Stage1");
 		
 		
 	}
