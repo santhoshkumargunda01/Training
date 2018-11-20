@@ -4,6 +4,7 @@ public class Actions {
 	
 	private void add() {
 		
+
 		System.out.println("Test commit");
 		
 
@@ -11,12 +12,15 @@ public class Actions {
 
 		System.out.println("Merge commit");
 		
+		System.out.println("Stage1");
+		System.out.println("Stage189");
 		System.out.println("Stage7");
 		
 		System.out.println("Sample test to write");
 		
 		
 	}
+
 
 
 }
