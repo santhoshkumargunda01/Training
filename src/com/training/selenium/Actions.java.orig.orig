@@ -13,14 +13,14 @@ public class Actions {
 		System.out.println("Merge commit");
 		
 <<<<<<< HEAD
+		System.out.println("Stage1");
+		System.out.println("Stage189");
 		System.out.println("Stage7");
-		
-		System.out.println("Sample test to write");
 =======
 		System.out.println("Stage189");
-=======
-		System.out.println("Stage7");
->>>>>>> origin/master
+>>>>>>> 0e5418808a6d5ad10cd7a7b75de7f05d337f646d
+		
+		System.out.println("Sample test to write");
 		
 		
 	}
