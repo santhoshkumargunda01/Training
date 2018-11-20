@@ -13,6 +13,8 @@ public class Actions {
 		
 		System.out.println("Stage7");
 		
+		System.out.println("Sample test to write");
+		
 		
 	}
 
