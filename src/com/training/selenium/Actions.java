@@ -13,6 +13,7 @@ public class Actions {
 		System.out.println("Test");
 
 		System.out.println("Merge commit");
+		//test
 		
 		System.out.println("Stage1");
 		System.out.println("Stage189");
