@@ -7,6 +7,8 @@ public class Actions {
 
 		System.out.println("Test commit");
 		
+		
+		System.out.println("Test commit from to test stash to changes");	
 
 		System.out.println("Test");
 
