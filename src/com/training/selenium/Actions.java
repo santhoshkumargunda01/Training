@@ -17,6 +17,8 @@ public class Actions {
 		
 		System.out.println("Teststttt to git");
 		
+		System.out.println("Test to git from master");
+		
 		System.out.println("Sample test to write");
 		
 		
