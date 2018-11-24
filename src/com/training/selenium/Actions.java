@@ -7,13 +7,15 @@ public class Actions {
 
 		System.out.println("Test commit");
 		
+		System.out.println("testttttt");
+		
 		
 		System.out.println("Test commit from to test stash to changes");	
 
 		System.out.println("Test");
 
 		System.out.println("Merge commit");
-		//test
+		//test dfdf
 		
 		System.out.println("Stage1");
 		System.out.println("Stage189");
